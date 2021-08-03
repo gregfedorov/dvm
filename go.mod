@@ -3,7 +3,7 @@ module github.com/fubarhouse/dvm
 go 1.13
 
 require (
-	github.com/Sirupsen/logrus v1.0.3
+	github.com/sirupsen/logrus v1.0.3
 	github.com/fsnotify/fsnotify v1.4.2
 	github.com/hashicorp/hcl v0.0.0-20171009174708-42e33e2d55a0
 	github.com/inconshreveable/mousetrap v1.0.0
