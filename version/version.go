@@ -4,8 +4,8 @@ package version
 import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
-	"github.com/fubarhouse/dvm/conf"
-	"github.com/fubarhouse/dvm/versionlist"
+	"github.com/gregfedorov/dvm/conf"
+	"github.com/gregfedorov/dvm/versionlist"
 	"os"
 	"os/exec"
 	"os/user"

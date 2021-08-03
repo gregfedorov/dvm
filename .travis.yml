@@ -72,7 +72,7 @@ script:
   # Test golang project.
   - 'docker exec "$(cat ${container_id})" env TERM=xterm dvm -install -version="7.3.0"'
   - 'docker exec "$(cat ${container_id})" env TERM=xterm dvm -default -version="7.3.0"'
-  - 'docker exec "$(cat ${container_id})" env TERM=xterm /home/travis/go_travis_test/bin/go test /home/travis/go_travis_test/bin/src/github.com/fubarhouse/dvm/...'
+  - 'docker exec "$(cat ${container_id})" env TERM=xterm /home/travis/go_travis_test/bin/go test /home/travis/go_travis_test/bin/src/github.com/gregfedorov/dvm/...'
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/

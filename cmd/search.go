@@ -17,7 +17,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/fubarhouse/dvm/versionlist"
+	"github.com/gregfedorov/dvm/versionlist"
 )
 
 var searchString = ""

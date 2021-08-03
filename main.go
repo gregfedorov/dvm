@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/fubarhouse/dvm/cmd"
+import "github.com/gregfedorov/dvm/cmd"
 
 func main() {
 	cmd.Execute()

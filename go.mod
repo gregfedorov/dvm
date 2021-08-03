@@ -1,4 +1,4 @@
-module github.com/fubarhouse/dvm
+module github.com/gregfedorov/dvm
 
 go 1.13
 

@@ -17,7 +17,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/fubarhouse/dvm/version"
+	"github.com/gregfedorov/dvm/version"
 )
 
 // installCmd represents the install command

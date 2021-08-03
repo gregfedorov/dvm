@@ -18,15 +18,15 @@ Drush version manager requires [composer](https://getcomposer.org/), and nothing
 There are three ways to install DVM, but if you're at all familiar with Golang these are very standardised shipping methods.
 
 **Option 1**: Like any other Go binary
-1. run `go get -u github.com/fubarhouse/dvm`
+1. run `go get -u github.com/gregfedorov/dvm`
 2. Use like any other Go binary.
 
 **Option 2**: Download a precompiled binary!
-1. Download one of the [pre-compiled binaries](https://github.com/fubarhouse/dvm/releases).
+1. Download one of the [pre-compiled binaries](https://github.com/gregfedorov/dvm/releases).
 2. Copy to location in `$PATH` environment variable.
 
 **Option 3**: - As an API for use in your Go project
-1. run `go get -u github.com/fubarhouse/dvm`
+1. run `go get -u github.com/gregfedorov/dvm`
 2. Build your own Go binary using the API's from the packages downloaded.
 
 ## Configuration
